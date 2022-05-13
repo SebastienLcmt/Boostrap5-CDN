@@ -1,0 +1,21 @@
+.global-container {  /* Pour les grands écrans */
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+video {
+    object-fit: cover;
+}
+
+.pricing-card {
+    min-height: 400px;
+}
+
+#parallax {
+    background: url('ressources/parallax.jpg') no-repeat bottom / cover fixed;
+    min-height: 250px;
+}
+
+#floatTxtArea {
+    min-height: 200px;
+}
